@@ -20,7 +20,7 @@ public class ItemData {
                 String[] parts = line.split("-");
 
                 String status = parts[2];
-                if (status.equals("Y")) {
+                if (status.equals("A")) {
                     String name = parts[0];
                     String rate = parts[1];
                     String discountRate = parts[4];
